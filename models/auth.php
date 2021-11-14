@@ -8,6 +8,7 @@ if(isset( $_POST["action"] ) == "register")
         $password = $_POST['password'];
         // echo $email. " ". $password;
         $SQL = "INSERT INTO `users`(`email`, `password`) VALUES ('". $email ."','". $password ."')";
+        // echo $SQL;
         $SQL = mysqli_query($conn, $SQL);
         echo $SQL;
             if ($SQL)
