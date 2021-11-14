@@ -4,7 +4,7 @@ include 'navbar.php';
 <link rel="stylesheet" href="css/login.css">
 <div class="login-Form">
   <h2>registration</h2>
-  <form action="models/auth.php" method="post">
+  <form action="models/loginauth.php" method="post">
       <div class="container">
           <label for="username"><b>email</b></label>
           <input type="email" placeholder="email" name="email" required >
